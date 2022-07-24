@@ -18,7 +18,7 @@ html{
     background-color: ${({ theme }) => theme.colors.body};
     background-image: url(${bgDark});
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: ${({ theme }) => theme.colors.text};
     font-family: ${({ theme }) => theme.font};
     transition: all 0.50s linear;
