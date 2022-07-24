@@ -1,0 +1,64 @@
+{
+  "data": {
+    "light": {
+      "id": "T_001",
+      "name": "Light",
+      "colors": {
+        "body": "hsl(0, 0%, 98%)",
+        "text": "hsl(236, 9%, 61%)",
+        "tasks": "hsl(0, 0%, 98%)",
+        "check": "linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%))",
+        "input": {
+          "placeholder": "hsl(236, 9%, 61%)"
+        },
+        "filter": {
+          "text": "hsl(233, 11%, 84%)",
+          "hover": "hsl(236, 9%, 61%)",
+          "selected": "hsl(220, 98%, 61%)"
+        },
+        "footer": {
+          "text": "hsl(233, 11%, 84%)"
+        }
+      },
+      "images": {
+        "bg": "public/images/bg-desktop-light.jpg"
+      },
+      "font": "Josefin Sans",
+      "fontSize": {
+        "sm": "12px",
+        "md": "18px",
+        "lg": "36px"
+      }
+    },
+    "dark": {
+      "id": "T_007",
+      "name": "dark",
+      "colors": {
+        "body": "hsl(235, 21%, 11%)",
+        "text": "hsl(234, 39%, 85%)",
+        "tasks": "hsl(235, 24%, 19%)",
+        "check": "linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%))",
+        "input": {
+          "placeholder": "hsl(234, 39%, 85%)"
+        },
+        "filter": {
+          "text": "hsl(234, 11%, 52%)",
+          "hover": "hsl(236, 33%, 92%)",
+          "selected": "hsl(220, 98%, 61%)"
+        },
+        "footer": {
+          "text": "hsl(233, 14%, 35%)"
+        }
+      },
+      "images": {
+        "bg": "public/images/bg-desktop-dark.jpg"
+      },
+      "font": "Josefin Sans",
+      "fontSize": {
+        "sm": "12px",
+        "md": "18px",
+        "lg": "36px"
+      }
+    }
+  }
+}
